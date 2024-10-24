@@ -1,0 +1,57 @@
+.name-shop{
+    color:green;
+    font-size: 45px;
+    margin-left: 150px;
+    }
+
+.elem1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: space-around;
+    color: white;
+    padding: 5px;
+    p {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 44, 44);
+    box-sizing: border-box;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.logo-img{
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.first{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 125px;
+    background-image: url('bg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.text_first{
+    color: azure;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
